@@ -46,7 +46,7 @@
     <div class="row">
         <?php
             if( Session::newInstance()->_getForm('pj_salaryText') != "" ) {
-                $detail['e_relation'] = Session::newInstance()->_getForm('pj_salaryText');
+                $detail['s_salary_text'] = Session::newInstance()->_getForm('pj_salaryText');
             }
         ?>
         <label for="look"><?php _e('Salary', 'jobs_attributes'); ?></label>
